@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+  </head>
+  <body class="bg-light" style="overflow-x: hidden">
+    <!--Sidebar Section-->
+    <div class="sidebar bg-black vh-100 position-fixed" id="sidebar">
+      <ul class="d-flex flex-column list-unstyled">
+        <li class="nav-item">
+          <img
+            src="images/Image.jpeg"
+            height="120px"
+            width="120px"
+            alt=""
+            class="mt-4 rounded-circle mx-auto d-block border border-5 border-dark"
+          />
+        </li>
+        <li class="text-center mt-3 fs-5 hover-zoom">
+          <a href="" class="bar-link text-decoration-none fw-bold"
+            >Abhinandan Karmakar</a
+          >
+        </li>
+        <!--Social Media Icons-->
+        <li class="text-center mt-3 fs-6">
+          <a
+            href="https://www.linkedin.com/in/abhinandan-karmakar/"
+            target="_blank"
+            class="px-1 bar-link"
+            ><i class="bi bi-linkedin p-2 rounded bg-dark"></i
+          ></a>
+          <a
+            href="https://github.com/abhinandan-karmakar"
+            target="_blank"
+            class="px-1 bar-link"
+            ><i class="bi bi-github p-2 rounded bg-dark"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/_.abhinandan/"
+            target="_blank"
+            class="px-1 bar-link"
+            ><i class="bi bi-instagram p-2 rounded bg-dark"></i
+          ></a>
+        </li>
+
+        <!--Main sections-->
+        <li class="mt-5 ms-5">
+          <a
+            href="#home"
+            class="bar-link active text-decoration-none"
+            id="sectionLLink"
+            ><i class="bi bi-house-door fs-5 mx-2"></i>Home</a
+          >
+        </li>
+        <li class="mt-4 ms-5">
+          <a
+            href="#about"
+            class="bar-link text-decoration-none"
+            id="sectionLLink"
+            ><i class="bi bi-person fs-5 mx-2"></i>About</a
+          >
+        </li>
+        <li class="mt-4 ms-5">
+          <a
+            href="#skills"
+            class="bar-link text-decoration-none"
+            id="sectionLLink"
+            ><i class="bi bi-check2-circle fs-5 mx-2"></i>Skills</a
+          >
+        </li>
+        <li class="mt-4 ms-5">
+          <a
+            href="#project"
+            class="bar-link text-decoration-none"
+            id="sectionLLink"
+            ><i class="bi bi-code-square fs-5 mx-2"></i>Project</a
+          >
+        </li>
+        <li class="mt-4 ms-5">
+          <a
+            href="#certificate"
+            class="bar-link text-decoration-none"
+            id="sectionLLink"
+            ><i class="bi bi-patch-check fs-5 mx-2"></i>Certificate</a
+          >
+        </li>
+        <li class="mt-4 ms-5">
+          <a
+            href="#resume"
+            class="bar-link text-decoration-none"
+            id="sectionLLink"
+            ><i class="bi bi-file-earmark fs-5 mx-2"></i>Resume</a
+          >
+        </li>
+
+        <li class="mt-4 ms-5">
+          <a
+            href="#contact"
+            class="bar-link text-decoration-none"
+            id="sectionLLink"
+            ><i class="bi bi-envelope fs-5 mx-2"></i>Contact</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <!--Main content-->
+    <div class="main-content-section">
+      <!--Toggler icon-->
+      <div class="toggler">
+        <button class="toggler-button btn btn-primary">
+          <i class="bi bi-list fs-5"></i>
+        </button>
+      </div>
+      <section id="home">
+        <div
+          class="hero-section vh-100 d-flex align-items-center justify-content-center"
+        >
+          <div class="hero-text">
+            <div class="hero-name text-white">
+              <h1 class="hero-name-text">Abhinandan Karmakar</h1>
+            </div>
+            <div class="hero-prof text-white">
+              <h2 class="hero-prof-text">
+                I'm a <span class="auto-type"></span>
+              </h2>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Main content after hero section-->
+      <div class="main-content mt-5 container">
+        <!--About Section-->
+        <section id="about">
+          <div class="about-heading">
+            <h1 class="fw-bold text-primary-emphasis">About</h1>
+            <div class="underline"></div>
+          </div>
+          <div class="about-body mt-4">
+            <p>
+              Hi, I'm Abhinandan Karmakar, a Full Stack Software Developer with
+              2 years of experience in creating dynamic and responsive web
+              applications. Proficient in HTML, CSS, Bootstrap, JavaScript,
+              Spring Boot, and Java, I excel in building comprehensive and
+              efficient solutions. My journey began with a fascination for
+              coding, driven by my first "Hello World" program in Java, and has
+              since grown into a deep passion for problem-solving and continuous
+              learning. Outside of work, I enjoy roadtrip, cooking, which keep
+              me balanced and inspired. I believe in maintaining a healthy
+              work-life balance, as it fuels my creativity and enhances my
+              approach to development. I'm always eager to connect with fellow
+              developers, explore new opportunities, and discuss the latest
+              trends in technology.
+            </p>
+          </div>
+          <!--Row col section of about-->
+          <div class="row">
+            <!--Image col-->
+            <div class="col-md-3 mt-4">
+              <img
+                class="img-fluid"
+                src="images/Image.jpeg"
+                alt="Profile Photo"
+              />
+            </div>
+
+            <!--Content col-->
+            <div class="col-md-9 mt-4">
+              <h2 class="heading fw-bold text-primary-emphasis">
+                Full-Stack Web Developer
+              </h2>
+              <p>
+                I'm a Full Stack Software Developer with 2 years of experience
+                in creating dynamic and responsive web applications. Proficient
+                in HTML, CSS, Bootstrap, JavaScript, Spring Boot, and Java.
+              </p>
+              <div class="row">
+                <div class="col-6">
+                  <div class="text-item mt-4">
+                    <span class="fs-6 text-primary">> </span
+                    ><span class="fw-bold fs-6">Birthday: </span
+                    ><span class="ps-2"> 30 July 2000</span>
+                  </div>
+                  <div class="text-item mt-4">
+                    <span class="fs-6 text-primary">> </span
+                    ><span class="fw-bold fs-6">Website: </span
+                    ><span class="ps-2"> www.example.com</span>
+                  </div>
+                  <div class="text-item mt-4">
+                    <span class="fs-6 text-primary">> </span
+                    ><span class="fw-bold fs-6">Phone: </span
+                    ><span class="ps-2"> +91 9735253985</span>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="text-item mt-4">
+                    <span class="fs-6 text-primary">> </span
+                    ><span class="fw-bold fs-6">Age: </span
+                    ><span class="ps-2"> 24</span>
+                  </div>
+                  <div class="text-item mt-4">
+                    <span class="fs-6 text-primary">> </span
+                    ><span class="fw-bold fs-6">Degree: </span
+                    ><span class="ps-2"> Bachelor of Engineering</span>
+                  </div>
+                  <div class="text-item mt-4">
+                    <span class="fs-6 text-primary">> </span
+                    ><span class="fw-bold fs-6">City: </span
+                    ><span class="ps-2"> Chennai, India</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--Skills Section-->
+        <section id="skills" class="mt-5">
+          <div class="skills-heading">
+            <h1 class="fw-bold text-primary-emphasis">Skills</h1>
+            <div class="underline"></div>
+          </div>
+          <div class="skill-body mt-4">
+            <div class="row">
+              <div class="col-12">
+                <b>Front-End:</b
+                ><span class="ps-2"> HTML, CSS, Bootstrap, JavaScript</span>
+              </div>
+              <div class="col-12 mt-2">
+                <b>Back-End:</b> <span class="ps-2">Spring Boot</span>
+              </div>
+              <div class="col-12 mt-2">
+                <b>Programming Languages:</b> <span class="ps-2">Java</span>
+              </div>
+              <div class="col-12 mt-2">
+                <b>Database:</b><span class="ps-2"> MySQL</span>
+              </div>
+              <div class="col-12 mt-2">
+                <b>Version Control:</b> <span class="ps-2">Git, GitHub</span>
+              </div>
+              <div class="col-12 mt-2">
+                <b>Others:</b> MVC architecture, Agile methodologies
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--Project Section-->
+        <section id="project" class="mt-5">
+          <div class="project-heading">
+            <h1 class="fw-bold text-primary-emphasis">Project</h1>
+            <div class="underline"></div>
+          </div>
+          <div class="project-body container">
+            <div class="row mt-4 bg-primary bg-opacity-10">
+              <div class="col-sm-3">
+                <a href=""
+                  ><img
+                    src="images/cybersecurity.jpg"
+                    class="img-fluid p-4 img-link"
+                    alt=""
+                /></a>
+              </div>
+              <div class="col-sm-9 mt-4">
+                <h4 class="heading fw-bold text-primary-emphasis">
+                  CYBERSECURITY DATA MANAGEMENT AND VISUALIZATION
+                </h4>
+                <p class="text-muted">
+                  Developed a cybersecurity application for uploading and
+                  managing vulnerability data. Enabled data storage in an SQL
+                  database and included a user-friendly interface with data
+                  visualization through a dynamic dashboard, enhancing
+                  cybersecurity efforts with efficient data handling and
+                  insights.
+                </p>
+
+                <p class="lead">
+                  <span class="fw-bold">Technologies:</span>
+                  <span class="ms-2"
+                    >HTML, CSS, JavaScript, SpringBoot, MySQL, Git</span
+                  >
+                </p>
+              </div>
+            </div>
+
+            <div class="row mt-4 bg-primary bg-opacity-10">
+              <div class="col-sm-3">
+                <a href=""
+                  ><img
+                    src="images/flight-reservation.jpg"
+                    class="img-fluid p-4 img-link"
+                    alt=""
+                /></a>
+              </div>
+              <div class="col-sm-9 mt-4">
+                <h4 class="heading fw-bold text-primary-emphasis">
+                  FLIGHT RESERVATION APPLICATIONS
+                </h4>
+                <p class="text-muted">
+                  Developed a cybersecurity application for uploading and
+                  managing vulnerability data. Enabled data storage in an SQL
+                  database and included a user-friendly interface with data
+                  visualization through a dynamic dashboard, enhancing
+                  cybersecurity efforts with efficient data handling and
+                  insights
+                </p>
+
+                <p class="lead">
+                  <span class="fw-bold">Technologies:</span>
+                  <span class="ms-2"
+                    >HTML, CSS, JavaScript, SpringBoot, MySQL, Git</span
+                  >
+                </p>
+              </div>
+            </div>
+
+            <div class="row mt-4 bg-primary bg-opacity-10">
+              <div class="col-sm-3">
+                <a href=""
+                  ><img
+                    src="images/task-manager.jpg"
+                    class="img-fluid p-4 img-link"
+                    alt=""
+                /></a>
+              </div>
+              <div class="col-sm-9 mt-4">
+                <h4 class="heading fw-bold text-primary-emphasis">
+                  TASK MANAGER
+                </h4>
+                <p class="text-muted">
+                  Created a full-stack web app, from design to deployment, for
+                  efficient daily task management. Utilized HTML, CSS,
+                  SpringBoot, and MySQL. Enabled users to add, edit, and delete
+                  tasks, improving task management.
+                </p>
+
+                <p class="lead">
+                  <span class="fw-bold">Technologies:</span>
+                  <span class="ms-2"
+                    >HTML, CSS, JavaScript, SpringBoot, MySQL, Git</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--Certificate Section-->
+        <section id="certificate" class="mt-5">
+          <div class="certificate-heading">
+            <h1 class="fw-bold text-primary-emphasis">Certificate</h1>
+            <div class="underline"></div>
+          </div>
+          <div class="certificate-body">
+            <div class="row mt-5 d-flex justify-content-center">
+              <div class="col-md-3">
+                <a
+                  href="https://www.hackerrank.com/certificates/198e041c1740"
+                  target="_blank"
+                  ><img
+                    src="images/java-image.png"
+                    alt="Java"
+                    class="img-fluid img-link"
+                /></a>
+                <h4 class="text-center mt-3 text-primary-emphasis fw-bold">
+                  Java
+                </h4>
+              </div>
+              <div class="col-md-3">
+                <a
+                  href="https://www.hackerrank.com/certificates/9d209ce04d6f"
+                  target="_blank"
+                  ><img
+                    src="images/SQL-image.png"
+                    alt="SQL"
+                    class="img-fluid img-link"
+                /></a>
+                <h4 class="text-center mt-3 text-primary-emphasis fw-bold">
+                  SQL
+                </h4>
+              </div>
+              <div class="col-md-3">
+                <a
+                  href="https://www.hackerrank.com/certificates/0e0696338236"
+                  target="_blank"
+                  ><img
+                    src="images/problem-solving-image.png"
+                    alt="Problem Solving"
+                    class="img-fluid img-link"
+                /></a>
+                <h4 class="text-center mt-3 text-primary-emphasis fw-bold">
+                  Problem Solving
+                </h4>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--Resume Section-->
+        <section id="resume" class="mt-5">
+          <div class="resume-heading">
+            <h1 class="fw-bold text-primary-emphasis">Resume</h1>
+            <div class="underline"></div>
+          </div>
+          <a
+            href="pdf/Resume_ABHINANDAN KARMAKAR.pdf"
+            target="_blank"
+            alt="resume"
+            class="mt-4"
+          >
+            <div class="resume-link-img ms-5 mt-4">
+              <img
+                src="images/resume.jpg"
+                alt=""
+                class="resume-link border border-secondary border-2"
+              />
+            </div>
+          </a>
+        </section>
+
+        <!--Contact Section-->
+        <section id="contact" class="mt-5 mb-5">
+          <div class="contact-heading">
+            <h1 class="fw-bold text-primary-emphasis">Contact</h1>
+            <div class="underline"></div>
+          </div>
+
+          <p class="mt-4">
+            I’d love to hear from you! Whether you have a question, a project in
+            mind, or just want to say hello, feel free to reach out. I am always
+            open to discussing new opportunities, creative ideas, or potential
+            collaborations. You can contact me directly through the form below
+            or connect with me via email or social media. I look forward to
+            connecting with you!
+          </p>
+          <div class="main-contact mt-4">
+            <div class="row mx-1">
+              <div class="col-xl-6 ps-5 bg-white shadow-lg pt-4 pb-5">
+                <div class="location fs-5">
+                  <i
+                    class="bi bi-geo-alt rounded-circle bg-primary bg-opacity-10 text-dark p-2 fs-5"
+                  ></i
+                  ><span class="mx-3 fw-bold contact-heading">Location </span>
+                  <div class="mx-2 px-5 fs-6 text-muted">
+                    <span class="contact-text">Chennai, India</span>
+                  </div>
+                </div>
+
+                <div class="email fs-5 mt-4">
+                  <i
+                    class="bi bi-envelope rounded-circle bg-primary bg-opacity-10 text-dark p-2 fs-5"
+                  ></i
+                  ><span class="mx-3 fw-bold contact-heading">Email </span>
+                  <div class="mx-2 px-5 fs-6 text-muted">
+                    <span class="contact-text"
+                      >abhinandan.karmakar.3003@gmail.com</span
+                    >
+                  </div>
+                </div>
+
+                <div class="phone fs-5 mt-4">
+                  <i
+                    class="bi bi-phone rounded-circle bg-primary bg-opacity-10 text-dark p-2 fs-5"
+                  ></i
+                  ><span class="mx-3 fw-bold contact-heading">Phone </span>
+                  <div class="mx-2 px-5 fs-6 text-muted">
+                    <span class="contact-text">+91 9735253985</span>
+                  </div>
+                </div>
+
+                <div class="map mt-4">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.296262259839!2d80.20437067515118!3d12.824122418094374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525a147df2fd2b%3A0x4c591871976e8fcd!2sMulberry%2C%20L%26T%20Eden%20Park%2C%20EDEN%20PARK%20AVENUE%2C%20Siruseri%2C%20Tamil%20Nadu%20603103%2C%20India!5e0!3m2!1sen!2sus!4v1716756657204!5m2!1sen!2sus"
+                    width="400"
+                    height="300"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+              </div>
+
+              <div class="col-xl-6 ps-5 pe-5 bg-white shadow-lg pt-4 pb-5">
+                <div class="contact-form">
+                  <form>
+                    <div class="form-group">
+                      <label for="name">Name</label>
+                      <input type="text" class="form-control mt-1" id="name" />
+                    </div>
+                    <div class="form-group mt-4">
+                      <label for="email">Email</label>
+                      <input type="text" class="form-control mt-1" id="email" />
+                    </div>
+                    <div class="form-group mt-4">
+                      <label for="subject">Subject</label>
+                      <input
+                        type="text"
+                        class="form-control mt-1"
+                        id="subject"
+                      />
+                    </div>
+                    <div class="form-group mt-4">
+                      <label for="message">Message</label>
+                      <textarea
+                        class="form-control mt-1"
+                        id="email"
+                        rows="5"
+                      ></textarea>
+                    </div>
+                    <div class="message-button d-flex justify-content-center">
+                      <button type="submit" class="btn btn-primary mt-5">
+                        Send Message
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed(".auto-type", {
+        strings: [
+          "Frontend Developer",
+          "Backend Developer",
+          "Fullstack Developer",
+        ],
+        typeSpeed: 100,
+        backSpeed: 100,
+        looped: true,
+      });
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
