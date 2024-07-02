@@ -517,7 +517,7 @@
 
               <div class="col-xl-6 ps-5 pe-5 bg-white shadow-lg pt-4 pb-5">
                 <div class="contact-form">
-                  <form>
+                  <form onsubmit="sendMessage()">
                     <div class="form-group">
                       <label for="name">Name</label>
                       <input
@@ -546,13 +546,11 @@
                       ></textarea>
                     </div>
                     <div class="message-button d-flex justify-content-center">
-                      <button
+                      <input
                         type="submit"
                         class="btn btn-primary mt-5"
-                        onclick="sendMessage()"
-                      >
-                        Send Message
-                      </button>
+                        value="Send Message"
+                      />
                     </div>
                   </form>
                 </div>
